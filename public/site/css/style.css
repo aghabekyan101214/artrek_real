@@ -30,7 +30,7 @@
 **********************************************/
 
 
-/*** 
+/***
 
 ====================================================================
 	Google Fonts
@@ -42,7 +42,7 @@
 @import url('https://fonts.googleapis.com/css?family=Unna');
 
 
-/*** 
+/***
 
 ====================================================================
 	Reset
@@ -74,7 +74,7 @@
 	outline:none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Global style
@@ -119,7 +119,7 @@ p{
 	font-family: 'Open Sans', sans-serif;
 }
 .strike-through{
-	text-decoration:line-through;	
+	text-decoration:line-through;
 }
 .auto-container{
 	position:static;
@@ -135,7 +135,7 @@ p{
 	position:relative;
 	margin:0 auto;
 	width:100%;
-	min-width:300px;	
+	min-width:300px;
 }
 ul,li{
 	list-style:none;
@@ -148,21 +148,21 @@ ul,li{
 	-moz-transition:all 0.3s ease;
 	-webkit-transition:all 0.3s ease;
 	-ms-transition:all 0.3s ease;
-	-o-transition:all 0.3s ease;	
+	-o-transition:all 0.3s ease;
 }
 .anim-5,.anim-5-all *{
 	transition:all 0.5s ease;
 	-moz-transition:all 0.5s ease;
 	-webkit-transition:all 0.5s ease;
 	-ms-transition:all 0.5s ease;
-	-o-transition:all 0.5s ease;	
+	-o-transition:all 0.5s ease;
 }
 .anim-7,.anim-7-all *{
 	transition:all 0.7s ease;
 	-moz-transition:all 0.7s ease;
 	-webkit-transition:all 0.7s ease;
 	-ms-transition:all 0.7s ease;
-	-o-transition:all 0.7s ease;	
+	-o-transition:all 0.7s ease;
 }
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:    #222222;
@@ -235,7 +235,7 @@ ul,li{
 	color: #777777;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Preloader style
@@ -243,20 +243,20 @@ ul,li{
 
 ***/
 
-.preloader{ 
-	position:fixed; 
-	left:0px; 
-	top:0px; 
-	height:100%; 
-	width: 100%; 
-	z-index:99999; 
-	background-color:#ffffff; 
-	background-position:center center; 
-	background-repeat:no-repeat; 
+.preloader{
+	position:fixed;
+	left:0px;
+	top:0px;
+	height:100%;
+	width: 100%;
+	z-index:99999;
+	background-color:#ffffff;
+	background-position:center center;
+	background-repeat:no-repeat;
 	background-image:url(../images/icons/preloader.gif);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Scroll To Top style
@@ -293,7 +293,7 @@ ul,li{
 }
 
 
-/*** 
+/***
 
 ====================================================================
   Search Popup
@@ -437,7 +437,7 @@ ul,li{
   border-color: #0b4696;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Main Header
@@ -497,7 +497,7 @@ ul,li{
 	top: 32px;
 }
 .main-menu .navbar-collapse{
-	padding:0px;	
+	padding:0px;
 }
 .main-menu .navigation{
 	position:relative;
@@ -557,7 +557,7 @@ ul,li{
 	border-bottom: 1px solid #e5e5e5;
 }
 .main-menu .navigation > li > ul > li:last-child{
-	border-bottom:none;	
+	border-bottom:none;
 }
 .main-menu .navigation > li > ul > li > a{
 	position:relative;
@@ -611,7 +611,7 @@ ul,li{
 	margin-left: 22px;
 }
 
-/*** 
+/***
 =============================================
     Rev Slider Wrapper
 =============================================
@@ -634,7 +634,7 @@ ul,li{
     font-size: 16px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Wellcome Section
@@ -682,7 +682,7 @@ ul,li{
 	padding-bottom: 25px;
 }
 
-/*** 
+/***
 
 ====================================================================
     Fact Counter Section
@@ -754,7 +754,7 @@ ul,li{
     font-family: 'Open Sans', sans-serif;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonials Section
@@ -827,7 +827,7 @@ ul,li{
 	font-family: 'Open Sans', sans-serif;
 }
 
-/*** 
+/***
 
 ====================================================================
     Gallery Style
@@ -899,7 +899,7 @@ ul,li{
 	width: 100%;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Choose Us
@@ -974,7 +974,7 @@ ul,li{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Cta Section
@@ -1003,7 +1003,7 @@ ul,li{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Team Section
@@ -1094,7 +1094,7 @@ ul,li{
 	font-family: 'Open Sans', sans-serif;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Sponsors Logos Style
@@ -1139,7 +1139,7 @@ ul,li{
 	width: 100%;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Blog Section
@@ -1262,7 +1262,7 @@ ul,li{
 }
 
 
-/*** 
+/***
 
 ====================================================================
    Contact Section
@@ -1333,7 +1333,7 @@ ul,li{
 	font-size: 14px;
 }
 
-/*** 
+/***
 
 ====================================================================
    Map Section
@@ -1350,7 +1350,7 @@ ul,li{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Subscribe Section
@@ -1418,7 +1418,7 @@ ul,li{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Footer Bottom
@@ -1450,7 +1450,7 @@ ul,li{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Page Title
@@ -1466,7 +1466,7 @@ ul,li{
 	background-size: cover !important;
 }
 .page-title .title h4{
-	font-size: 60px;
+	font-size: 40px;
 	font-weight: 600;
 	line-height: 70px;
 	color: #222222;
@@ -1491,7 +1491,7 @@ ul,li{
 	transition: all 500ms ease;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Subscribe Section Style Two
@@ -1503,7 +1503,7 @@ ul,li{
 	border-top: 1px solid #e5e5e5;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Team Section Style Two
@@ -1515,7 +1515,7 @@ ul,li{
 	padding: 120px 0px 80px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Contact Section Style Two
@@ -1534,7 +1534,7 @@ ul,li{
     margin-left: 0px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Blog Section Style Two
@@ -1546,7 +1546,7 @@ ul,li{
 	margin-top: 120px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Gallery Section Style Two
@@ -1571,7 +1571,7 @@ ul,li{
   color: #848484;
   font-size: 15px;
   font-weight: 600;
-  line-height: 26px;  
+  line-height: 26px;
   display: block;
   padding-left: 40px;
   cursor: pointer;
@@ -1583,7 +1583,7 @@ ul,li{
   transition: .5s ease;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Gallery Section Style Three
@@ -1598,7 +1598,7 @@ ul,li{
 	padding-top: 160px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Gallery Details
@@ -1651,7 +1651,7 @@ ul,li{
 	padding-top: 15px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Blog Section Style Three

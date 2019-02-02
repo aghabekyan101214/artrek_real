@@ -19,4 +19,5 @@ Route::group(['prefix' => 'admin',  'middleware' => 'auth'], function()
 
 Route::get('/', 'HomeController@index');
 Route::get('/about', 'SiteAboutController@index');
+Route::get('/news/{id?}', 'SiteNewsController@index');
 Route::get('/banner-type/{id}', 'BannerController@get_banner');

@@ -1,4 +1,4 @@
-@extends('layouts.site_layout');
+@extends('layouts.site_layout')
 @section('content')
     <!--Page Title-->
     <section class="page-title" style="background: url({{ asset("$data->image") }});">

@@ -6,7 +6,7 @@
                 <form action="/admin/news" method="post" class="col-md-12">
                     {{ csrf_field() }}
                     <div class="form-group" style="text-align: center">
-                        <img onclick="admin.chooseImage(this)" class="img-responsive img_choose_div" height="200px" src="@if(isset($data->image) && $data->image != '-') {{ asset($data->image) }} @else {{ asset('public/images.png') }} @endif" alt="">
+                        <img onclick="admin.chooseImage(this)" class="img-responsive img_choose_div" height="200px" src="@if(isset($data->image) && $data->image != '-') {{ asset('storage/app'.$data->image) }} @else {{ asset('storage/app/public/images.png') }} @endif" alt="">
                         <input type="hidden" name="image">
                     </div>
                     <div class="form-group">

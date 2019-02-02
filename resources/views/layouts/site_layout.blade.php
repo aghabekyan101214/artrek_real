@@ -59,7 +59,7 @@ $types = Type::all();
                                 @endforeach
                             </ul>
                         </li>
-                        <li><a href="news.html">Նորություններ</a></li>
+                        <li><a href="/news">Նորություններ</a></li>
                         <li><a href="contacts.html">Հետադարձ Կապ</a></li>
                     </ul>
                 </div>
