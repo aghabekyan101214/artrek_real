@@ -41,7 +41,7 @@ class ImagesController extends Controller
 
         $path = Storage::putFile('public', $request->file('files'), 'public');
         $data = new Image;
-        $data->img = $path;
+        $data->img = explode("/", $path)[1];
         $data->save();
         return redirect('/admin/images');
     }

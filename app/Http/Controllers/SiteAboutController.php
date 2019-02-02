@@ -9,7 +9,7 @@ class SiteAboutController extends Controller
 {
     public function index()
     {
-        $data = About::first();
+        $data['about'] = About::first();
         return view('site.about', compact('data'));
     }
 }

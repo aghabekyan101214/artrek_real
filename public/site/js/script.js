@@ -22,7 +22,7 @@
 				$('.main-header').removeClass('fixed-header');
 				$('.scroll-to-top').fadeOut(300);
 				$(".header-fix").css('display', 'none');
-				$(".main-menu .navigation >li >a").css("color", "white");
+				// $(".main-menu .navigation >li >a").css("color", "white");
 			}
 		}
 	}

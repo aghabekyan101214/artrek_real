@@ -1,15 +1,11 @@
-<?php $__env->startSection('content'); ?>
+@extends('layouts.site_layout')
+@section('content')
     <!--Page Title-->
-    <section class="page-title" style="background: url(<?php echo e(asset('site/images/background/2.jpg')); ?>);">
+    <section class="page-title" style="background: url({{ asset("$data->image") }});">
         <div class="container text-center">
             <div class="title">
                 <h4>Մեր Մասին</h4>
             </div>
-            <!-- <ul class="title-manu">
-                <li><a href="index.html">Գլխավոր</a></li>
-                <li>&gt;</li>
-                <li>About Us</li>
-            </ul> -->
         </div>
     </section>
     <!--End Page Title-->
@@ -18,11 +14,14 @@
     <section class="choose-us">
         <div class="container">
             <div class="section-title text-center">
-                <h2><?php echo e($data['about']->header); ?></h2>
+                <h2>Մեր Մասին</h2>
             </div>
             <div class="col-lg-6 col-md-12 col-xs-12">
+                <div class="text">
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt culpa qui officia deserunt mollit anim id est labo rum. Sed perspiciatis unde omnis an natus error sit voluptatem.</p>
+                </div>
                 <div class="content-text">
-                    <?php echo $data['about']->about ?>
+                    <p>Totam rem aperiam eaque ipsa quae illo inventore veritatis et quasi architebe tea.vitae dicta sunt explicabo. nemo enim ipsam volup as tatem quia voluptassit aspernatur.aut odit aut fugit, sed quia consequuntur magni dolores eo ratione voluptatem.sequi nesciunt neque porro quisquam est, dolorem ipsum quia dolor sit amet, consectetur adipisci velit.</p>
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 col-xs-12">
@@ -64,6 +63,4 @@
         </div>
     </section>
     <!--End Choose Us-->
-<?php $__env->stopSection(); ?>
-
-<?php echo $__env->make('layouts.site_layout', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+@endsection
