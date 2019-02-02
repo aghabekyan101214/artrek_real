@@ -24,7 +24,7 @@
                         @method("PUT")
                     @endif
                     {{ csrf_field() }}
-                    <div class="form-group" style="text-align: center">
+                      <div class="form-group" style="text-align: center">
                         <img onclick="admin.chooseImage(this)" class="img-responsive cursor" height="200px" src="@if(isset($data->image) && $data->image != '-') {{ asset('storage/app/'.$data->image) }} @else {{ asset('storage/app/images.png') }} @endif" alt="">
                         <input type="hidden" name="image" value="@if(isset($data->image)) {{ asset($data->image) }} @endif">
                     </div>

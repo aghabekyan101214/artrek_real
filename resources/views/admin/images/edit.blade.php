@@ -10,7 +10,7 @@
                         <?php echo '<div style="color: red;">'. $errors->first('files') . '</div>'; ?>
                         <label for="pic" class="control-label">Picture</label>
                         <div style="height: 150px; width: 100%; text-align: center" class="img_choose_div">
-                            <img class="img-responsive" height="150px" onclick="admin.chooseImage(this)" src="{{ asset( $data->img ) }}" alt="">
+                            <img class="img-responsive" height="150px" onclick="admin.chooseImage(this)" src="{{ asset( 'storage/app'.$data->img ) }}" alt="">
                             <input type="hidden" name="img" placeholder="Picture" class="form-control" id="pic" value="{{ $data->img }}" >
                         </div>
                     </div>

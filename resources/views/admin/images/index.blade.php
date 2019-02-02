@@ -19,7 +19,7 @@
                     @foreach($data as $d)
                         <tr>
                             <td>{{$loop->index + 1}}</td>
-                            <td><img class="img-responsive" height="150px" src="{{ asset("$d->img") }}" alt=""></td>
+                            <td><img class="img-responsive" height="150px" src="{{ asset("storage/app/$d->img") }}" alt=""></td>
                             <td>{{ $d->img }}</td>
                             <td>
                                 {{--<a href="/admin/images/{{$d->id}}/edit" class="btn btn-primary"><i class="fa fa-edit"></i></a>--}}

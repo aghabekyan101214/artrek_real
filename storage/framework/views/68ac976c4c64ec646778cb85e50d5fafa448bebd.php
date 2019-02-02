@@ -19,14 +19,16 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
+              <?php echo e($data->image); ?>
+
                 <form action="/admin/general/<?php if(isset($data->id)): ?><?php echo e($data->id); ?> <?php endif; ?>" method="post" class="col-md-12">
                     <?php if(isset($data->id)): ?>
                         <?php echo method_field("PUT"); ?>
                     <?php endif; ?>
                     <?php echo e(csrf_field()); ?>
 
-                    <div class="form-group" style="text-align: center">
-                        <img onclick="admin.chooseImage(this)" class="img-responsive cursor" height="200px" src="<?php if(isset($data->image) && $data->image != '-'): ?> <?php echo e(asset($data->image)); ?> <?php else: ?> <?php echo e(asset('public/images.png')); ?> <?php endif; ?>" alt="">
+                      <div class="form-group" style="text-align: center">
+                        <img onclick="admin.chooseImage(this)" class="img-responsive cursor" height="200px" src="<?php if(isset($data->image) && $data->image != '-'): ?> <?php echo e(asset('storage/app/'.$data->image)); ?> <?php else: ?> <?php echo e(asset('storage/app/images.png')); ?> <?php endif; ?>" alt="">
                         <input type="hidden" name="image" value="<?php if(isset($data->image)): ?> <?php echo e(asset($data->image)); ?> <?php endif; ?>">
                     </div>
                     <div class="row myRow">
